@@ -1,12 +1,21 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace ORM_Dapper
+//--------------------------------------
+// David Zientara
+// 11-7-2022
+//
+// IDepartmentRepository.cs
+// 
+// Interface for DepartmentRepository
+// Only contains one class - GetAllDepartments()
+//
+//--------------------------------------
+
+namespace IntroSQL
 {
-    internal interface IDepartmentRepository
+    public interface IDepartmentRepository
     {
+        IEnumerable<Department> GetAllDepartments(); //Stubbed out method
     }
 }

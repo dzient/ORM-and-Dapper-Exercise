@@ -1,12 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+using System;
 
-namespace ORM_Dapper
+//--------------------------------------
+// David Zientara
+// 11-7-2022
+//
+// Department.cs
+// 
+// Defines the Department class
+// Only has DepartmentID + Name
+//
+//--------------------------------------
+namespace IntroSQL
 {
-    internal class Department
+    public class Department
     {
+        public int DepartmentID { get; set; }
+        public string? Name { get; set; }
+
     }
 }
